@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class CameraContoller : MonoBehaviour
 {
-    public GameObject player;
+    public Transform player;
 
     void Start()
     {
 
     }
 
-    void Update()
+    // 
+    void LateUpdate()
     {
-        Vector3 playerPos = this.player.transform.position;
+        Vector3 playerPos = this.player.position;
         transform.position = new Vector3(transform.position.x, playerPos.y, transform.position.z);
     }
 }

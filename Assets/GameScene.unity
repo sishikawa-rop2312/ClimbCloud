@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 1135895322}
   - component: {fileID: 1135895323}
   - component: {fileID: 1135895324}
+  - component: {fileID: 1135895325}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -409,7 +410,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -580,6 +581,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092ddb8050b93e845b340046438b9b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1135895325
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135895318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e86495b0c6222f42aa4755c24e4442d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
